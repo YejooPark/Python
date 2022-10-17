@@ -1,0 +1,5 @@
+animal = ["dog", "duck", "pony", "donkey", "giraffe", "elephant", "cat"]
+
+for i in range (len (animal)):
+    if len (animal[i]) < 5:
+      print (animal[i])
